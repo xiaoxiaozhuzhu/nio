@@ -19,6 +19,7 @@ public class MultiplexerTimeServer implements Runnable{
 	
 	public MultiplexerTimeServer(int port)
 	{
+		
 		try {
 			selector = Selector.open();
 			serverChannle = ServerSocketChannel.open();
